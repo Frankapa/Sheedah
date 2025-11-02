@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jersy Market</title>
+    <link rel="stylesheet" href="sheedah.css">
+    <script src="https://kit.fontawesome.com/f6548aa2ac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="data">
+        <div class="header">
+            <img src="leaf-fill.svg" class="logo" alt="Logo">
+            <h1>Sheedah's Shop</h1>
+            <div class="searchBar">
+            <input type="text" id="searchInput" placeholder="Search products..." name="searchInput">
+         </div>
+        </div>
+        
+        <div class="body">
+            <div class="root" id="root">
+            <!-- Products will be dynamically inserted on js -->
+          </div>
+         </div>
+        </div>
+        <div class="cartBar">
+            <div class="head">
+            <h2>Your Cart</h2>
+            <div class="cart">
+                <img src="./cart3.svg">
+                <p id="count">0</p>
+            </div>
+            </div>
+            <div id="cartitem">Your cart is empty</div>
+        <div class="foot">
+            <h3>Total:</h3>
+            <h2 id="total">₦ 0.00</h2>
+            
+        </div>
+        <div class="checkout">
+            <button id="checkout-btn" onclick="whatsapp()">Checkout</button>
+        </div>
+
+    </div>
+    </div>
+    <div>
+        <footer>© 2024 Sheedah's Shop. All rights reserved.</footer>
+    </div>
+
+ 
+    
+    
+    
+
+
+
+    <script src="sheedah.js"></script>
+</body>
+</html>
