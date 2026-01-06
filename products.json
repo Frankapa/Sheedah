@@ -1,0 +1,128 @@
+[
+    {
+       "id": 1,
+       "name": "Cinderella Combo",
+       "price": 25000,
+       "image": "jersy1.jpg"
+    },
+    {
+       "id": 2,
+       "name": "94 Combo",
+       "price": 44000,
+       "image": "jersy2.jpg"
+    },
+    {
+       "id": 3,
+       "name": "Dear Body Combo",
+       "price": 28000,
+       "image": "jersy3.jpg"
+    },
+    {
+       "id": 4,
+       "name": "24k Combo",
+       "price": 32000,
+       "image": "jersy1.jpg"
+    },
+    {
+       "id": 5,
+       "name": "Sexy pinky Combo",
+       "price": 41000,
+       "image": "jersy2.jpg"
+    },
+    {
+       "id": 6,
+       "name": "Notions Combo",
+       "price": 38000,
+       "image": "jersy3.jpg"
+    },
+    {
+       "id": 7,
+       "name": "24k",
+       "price": 16000,
+       "image": "jersy2.jpg"
+    },
+    {
+       "id":8,
+       "name": "24k",
+       "price": 16000,
+       "image": "jersy3.jpg"
+    },
+    {
+       "id": 9,
+       "name": "24k",
+       "price": 16000,
+       "image": "jersy1.jpg"
+    },
+    {
+       "id": 10,
+       "name": "24k",
+       "price": 16000,
+       "image": "jersy2.jpg"
+    },
+    {
+       "id": 11,
+       "name": "24k",
+       "price": 16000,
+       "image": "jersy3.jpg"
+    },
+    {
+       "id": 12,
+       "name": "24k",
+       "price": 16000,
+       "image": "jersy1.jpg"
+    },
+    {
+       "id": 13,
+       "name": "24k",
+       "price": 16000,
+       "image": "jersy2.jpg"
+    },
+    {
+       "id": 14,
+       "name": "24k",
+       "price": 16000,
+       "image": "jersy3.jpg"
+    },
+    {
+       "id": 15,
+       "name": "24k",
+       "price": 16000,
+       "image": "jersy1.jpg"
+    },
+    {
+       "id": 16,
+       "name": "24k",
+       "price": 16000,
+       "image": "jersy2.jpg"
+    },
+    {
+       "id": 17,
+       "name": "24k",
+       "price": 16000,
+       "image": "jersy3.jpg"
+    },
+    {
+       "id": 18,
+       "name": "24k",
+       "price": 16000,
+       "image": "jersy2.jpg"
+    },
+    {
+       "id": 19,
+       "name": "24k",
+       "price": 16000,
+       "image": "jersy1.jpg"
+    },
+    {
+       "id": 20,
+       "name": "24k",
+       "price": 16000,
+       "image": "jersy2.jpg"
+    },
+    {
+       "id": 21,
+       "name": "perfume",
+       "price": 16000,
+       "image": "jersy3.jpg"
+    }
+]

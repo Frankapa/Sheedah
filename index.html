@@ -3,57 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jersy Market</title>
-    <link rel="stylesheet" href="sheedah.css">
+    <title>Sheedah Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" 
+    crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/f6548aa2ac.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="sheedah.css">
 </head>
 <body>
+    
     <div class="container">
         <div class="data">
-        <div class="header">
+        <div class="header" id="header">
             <img src="leaf-fill.svg" class="logo" alt="Logo">
             <h1>Sheedah's Shop</h1>
             <div class="searchBar">
-            <input type="text" id="searchInput" placeholder="Search products..." name="searchInput">
-         </div>
-        </div>
-        
-        <div class="body">
-            <div class="root" id="root">
-            <!-- Products will be dynamically inserted on js -->
-          </div>
-         </div>
-        </div>
-        <div class="cartBar">
-            <div class="head">
-            <h2>Your Cart</h2>
-            <div class="cart">
-                <img src="./cart3.svg">
-                <p id="count">0</p>
+                <input type="text" id="searchInput" placeholder="Search products..." name="searchInput">
             </div>
-            </div>
-            <div id="cartitem">Your cart is empty</div>
-        <div class="foot">
-            <h3>Total:</h3>
-            <h2 id="total">₦ 0.00</h2>
             
         </div>
-        <div class="checkout">
-            <button id="checkout-btn" onclick="whatsapp()">Checkout</button>
+        <div class="ListProduct">
+            <div class="item" id="root">
+               <!--Products will be placed here-->
+               </div>
+            </div>
+        <footer id="footer">
+            <h4>© 2026 B.Tech. All rights reserved.</h4>
+            <div class="social-icons">
+                <img src="./tiktok.svg">
+                <img src="./twitter-x.svg">
+                <img src="./whatsapp.svg">
+            </div>
+        </footer>
         </div>
-
+        </div>
+        <div class="sidebar">
+            <div class="head">
+            <h1>Shopping Cart</h1>
+            <div class="cart-icon">
+                <img src="cart3.svg" class="cartsvg" alt="Cart Icon">
+                <span id="cart-count">0</span>
+            </div>
+            </div>
+            <div class="cartBar">
+                <div class="item">
+                    
+                   </div>
+            </div>
+            <div class="btn">
+                <button class="Total" id="Total">Total: ₦ 0.00</button>
+                <button class="checkOut" id="checkout-btn" onclick="whatsapp()">CHECK OUT</button>
+            </div>
+        </div>
     </div>
-    </div>
-    <div>
-        <footer>© 2024 Sheedah's Shop. All rights reserved.</footer>
-    </div>
-
- 
     
-    
-    
-
-
 
     <script src="sheedah.js"></script>
 </body>
